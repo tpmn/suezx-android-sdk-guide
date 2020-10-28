@@ -1,4 +1,4 @@
-# **SuezX**
+# **SuezX SDK**
 
 ## SuezX SDK 통합
 
@@ -14,14 +14,13 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        maven { url "https://dl.bintray.com/tpmn/maven" }
     }
 }
 ~~~
 앱 모듈의 build.gradle에 다음을 추가하세요.
 ~~~groovy
 dependencies {
-    implementation 'io.tpmn:suezx-sdk:2.0.0@aar'
+    implementation 'io.tpmn:suezx-sdk:2.0.0'
 }
 ~~~
 Google의 정책에 따라 Google Advertising ID를 사용해야 합니다. 앱 모듈의 build.gradle에 다음을 추가하세요.
