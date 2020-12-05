@@ -57,7 +57,7 @@ SuezX SDK가 정상적으로 동작하도록 AndroidManifest.xml에 다음 권�
 
 ### 1. XML 레이아웃에 배너 인벤토리 정의
 ~~~
-<com.suezx.ad.SuezxBannerAd
+<io.tpmn.suezx.SuezxBannerAd
     android:id="@+id/banner"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"/>
