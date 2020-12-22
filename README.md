@@ -21,7 +21,7 @@ allprojects {
 앱 모듈의 build.gradle에 다음을 추가하세요.
 ~~~groovy
 dependencies {
-    implementation 'io.tpmn:suezx-sdk:2.0.0'
+    implementation 'io.tpmn:suezx-sdk:2.1.0'
 }
 ~~~
 
@@ -137,6 +137,7 @@ suezXInterstitialAd = new SuezXInterstitialAd(this);
 
 suezXInterstitialAd.setPublisherId(YOUR_INTERSTILTIAL_PUBLISHER_ID_HERE); // FIXME: 인터스티셜 퍼블리셔 ID를 넣으세요.
 suezXInterstitialAd.setInventoryId(YOUR_INTERSTILTIAL_INVENTORY_ID_HERE); // FIXME: 인터스티셜 인벤토리 ID를 넣으세요.
+suezXInterstitialAd.setUseCache(true); // 선택. 기본값: true.
 
 suezXInterstitialAd.loadAd();
 ~~~
