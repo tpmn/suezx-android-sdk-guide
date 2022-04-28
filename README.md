@@ -3,17 +3,11 @@
 ## SuezX SDK 통합
 
 ### 1. SuezX SDK 다운로드
-SuezX SDK를 jCenter를 통해 다운로드할 수 있습니다. 프로젝트의 build.gradle에 다음을 추가하세요. 
+SuezX SDK를 JitPack을 통해 다운로드할 수 있습니다. 프로젝트의 build.gradle에 다음을 추가하세요. 
 ~~~groovy
-buildscript {
-    repositories {
-        jcenter()
-    }
-}
-
 allprojects {
     repositories {
-        jcenter()
+        maven { url 'https://jitpack.io' }
     }
 }
 ~~~
