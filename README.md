@@ -15,7 +15,7 @@ allprojects {
 앱 모듈의 build.gradle에 다음을 추가하세요.
 ~~~groovy
 dependencies {
-    implementation 'io.github.tpmn:suezx-android-sdk:2.1.1'
+    implementation 'com.github.tpmn:suezx-android-sdk:2.1.0'
 }
 ~~~
 
